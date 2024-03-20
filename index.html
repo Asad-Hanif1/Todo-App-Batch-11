@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1> Hello todo </h1>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Add new task">
+      <button id="addTaskBtn">Add Todo </button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="main.js"></script>
 </body>
-</html>
